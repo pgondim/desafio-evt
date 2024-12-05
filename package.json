@@ -1,0 +1,20 @@
+{
+  "name": "desafio-evt",
+  "version": "1.0.0",
+  "description": "Desafio realizado como parte do processo seletivo para QA Sênior da empresa evtit.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgondim/desafio-evt.git"
+  },
+  "author": "Pedro Gondim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgondim/desafio-evt/issues"
+  },
+  "homepage": "https://github.com/pgondim/desafio-evt#readme"
+}
