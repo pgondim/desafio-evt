@@ -13,7 +13,7 @@ describe("Admin user", () => {
       cy.get("span")
         .contains("Este email já está sendo usado")
         .should("be.visible");
-    }),
+    })
     it("create user without mandatory fields filled in", () => {
       cy.getElement("cadastrar").click();
       cy.getElement("cadastrar").click();
