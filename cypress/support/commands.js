@@ -24,3 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add('getElement', (dataSelector) => cy.get(`[data-testid="${dataSelector}"]`));
+Cypress.Commands.add('login', (user, passwaord) => {
+    cy.visit('https://front.serverest.dev/'),
+    cy.getElement('email').type(user)
+    cy.getElement('senha').type(passwaord)
+    cy.getElement('entrar').click()
+});
