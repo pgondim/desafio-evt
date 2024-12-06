@@ -120,8 +120,8 @@ Deve ser apresentada uma mensagem para cada campo em branco:
 Deve ser apresentada um novo produto cadastrado com o mesmo nome, descrição e preço
 - "Nome é obrigatório"
 - "Email é obrigatório"
-- "Password é obrigatório"
-- 
+- "Password é obrigatório" 
+
 </details>
 
 ## API - backend
