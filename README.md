@@ -24,7 +24,7 @@ npx cypress open
 # CI/CD - Pipeline - GitHub actions
 Foi criada uma pipeline de integração e entrega contínua para executar automaticamente os testes em cypress a cada novo push realizado no projeto.
 
-Basta ir na aba de [actions](https://github.com/pgondim/desafio-tecnico-qa-2024/actions) do projeto para ter acessos as pipelines que já foram executadas.
+Basta ir na aba [Actions](https://github.com/pgondim/desafio-tecnico-qa-2024/actions) do projeto para ter acessos as pipelines que já foram executadas.
 
 # Estórias de Usuário - UI - Frontend
 
