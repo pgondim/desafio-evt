@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/pgondim/desafio-evt/issues"
   },
-  "homepage": "https://github.com/pgondim/desafio-evt#readme"
+  "homepage": "https://github.com/pgondim/desafio-evt#readme",
+  "dependencies": {
+    "cypress": "^13.16.1",
+    "cypress-plugin-api": "^2.11.2",
+    "uuid": "^11.0.3"
+  }
 }
